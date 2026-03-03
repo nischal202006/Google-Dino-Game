@@ -1,6 +1,6 @@
 # Google-Dino-Game (Arduino Hardware Clone)
 
-A standalone hardware implementation of the classic Chrome "No Internet" Dinosaur game[cite: 66, 72]. [cite_start]This project translates software-based mechanics into a physical system using an Arduino Uno, custom C++ logic, and real-time hardware-software integration.
+A standalone hardware implementation of the classic Chrome "No Internet" Dinosaur game. This project translates software-based mechanics into a physical system using an Arduino Uno, custom C++ logic, and real-time hardware-software integration.
 
 ##  Project Overview
 [cite_start]This project focuses on creating an engaging learning tool that demonstrates efficient resource management on microcontrollers[cite: 80, 87]. [cite_start]It features custom-bitmapped graphics, dynamic difficulty scaling, and a dedicated audio feedback system [cite: 1-10, 49, 100].
