@@ -3,7 +3,7 @@
 A standalone hardware implementation of the classic Chrome "No Internet" Dinosaur game. This project translates software-based mechanics into a physical system using an Arduino Uno, custom C++ logic, and real-time hardware-software integration.
 
 ##  Project Overview
-[cite_start]This project focuses on creating an engaging learning tool that demonstrates efficient resource management on microcontrollers[cite: 80, 87]. [cite_start]It features custom-bitmapped graphics, dynamic difficulty scaling, and a dedicated audio feedback system [cite: 1-10, 49, 100].
+This project focuses on creating an engaging learning tool that demonstrates efficient resource management on microcontrollers. It features custom-bitmapped graphics, dynamic difficulty scaling, and a dedicated audio feedback system.
 
 ### Key Features
 * **Custom 8-Bit Graphics:** Designed 10 unique character sprites (Dinosaur frames, birds, and obstacles) using custom byte arrays for the LCD 
@@ -24,8 +24,3 @@ The system is built on a custom-soldered PCB for enhanced durability and easier 
 ## 💻 Software Implementation
 The core logic manages three distinct game states: the Start Screen (blinking prompt), Active Gameplay, and the Game Over sequence 
 
-```cpp
-// Example of the collision logic used for ground-based obstacles
-if ((column_part == b || column_part == c) && row_part == 1) {
-    gameOver(); // Triggered when obstacle coordinates match Dino position
-}
